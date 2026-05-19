@@ -15,18 +15,15 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Made 3D Studio | Stampa 3D e Progettazione",
   description:
-    "Made 3D Studio realizza soluzioni di stampa 3D, progettazione, prototipazione e personalizzazione per privati e aziende.",
+    "Made 3D Studio realizza soluzioni di stampa 3D, progettazione, prototipazione e personalizzazione.",
 
   keywords: [
     "stampa 3D",
     "progettazione 3D",
     "prototipazione",
-    "made 3d studio",
     "modellazione 3D",
     "loghi personalizzati",
   ],
-
-  authors: [{ name: "Made 3D Studio" }],
 
   openGraph: {
     title: "Made 3D Studio",
