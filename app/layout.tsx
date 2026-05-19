@@ -12,9 +12,31 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Made 3d studio",
-  description: "Servizio di personalizzazione 3d",
+export const metadata = {
+  title: "Made 3D Studio | Stampa 3D e Progettazione",
+  description:
+    "Made 3D Studio realizza soluzioni di stampa 3D, progettazione, prototipazione e personalizzazione per privati e aziende.",
+
+  keywords: [
+    "stampa 3D",
+    "progettazione 3D",
+    "prototipazione",
+    "made 3d studio",
+    "modellazione 3D",
+    "loghi personalizzati",
+  ],
+
+  authors: [{ name: "Made 3D Studio" }],
+
+  openGraph: {
+    title: "Made 3D Studio",
+    description:
+      "Stampa 3D, progettazione e personalizzazione professionale.",
+    url: "https://made3dstudio.it",
+    siteName: "Made 3D Studio",
+    locale: "it_IT",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
